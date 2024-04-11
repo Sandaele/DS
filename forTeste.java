@@ -10,20 +10,21 @@ import java.util.Scanner;
  *
  * @author Aluno CA
  */
-public class forExemplo {
+public class forTeste {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // laços de repetição
         Scanner input = new Scanner (System.in);
         
-        System.out.println("digite um número");
-        int contador = input.nextInt();
+        System.out.println("digite o número: ");
+        int num = input.nextInt();
+        int i;
         
-        for  (int i=0; i<contador; i++){
-            System.out.println("número: "+i);
+        for (i=1; i<=10; i++) {
+            int res = num * i;
+            System.out.println(num+" * "+ i + " = " + res);
         }
     }
     
