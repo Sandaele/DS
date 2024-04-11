@@ -1,0 +1,27 @@
+echo Baixar (clonar) arquivos do GIT
+
+git clone url (link do repositório)
+
+echo Configurar dados do Usuário
+
+$ git config --global user.name "Fulano de Tal"
+$ git config --global user.email fulanodetal@exemplo.br
+
+
+echo Preparar pasta para Monitoramento GIT
+
+Inicializar GIT
+git init
+
+echo Indicar arquivos para Monitoramento GIT
+
+git add . (para todos os arquivos)
+git add text.doc (para indicar somente um arquivo)
+
+echo Preparar arquivos para Subir pro GIT
+
+git commit -m "Informações das Alterações"
+
+echo Subir arquivos para o GIT
+
+git push 
